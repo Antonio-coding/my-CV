@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+   font-family: 'open Sans', sans-serif;
+   margin: 0;
+   padding: 0;
+  box-sizing: border-box;
+}
+.container{
+    
+} 
+.infomrmation-column{
+    padding: 40px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+.infomrmation-column img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #87ceeb;
+    border-radius: 45%;
+    margin-bottom: 18px;
+
+}
+
+.infomrmation-column h2{
+    padding-bottom: 18px;
+    border-bottom: 1px solid #87ceeb;
+}
+
+.infomrmation-column h3{
+    margin-top: 25px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.contact-description .icon{
+    color: #87ceeb;
+    margin-right: 8px;
+}
+
+.infomrmation-column ul{
+    list-style: none;
+    text-align: left;
+}
+
+.infomrmation-column li{
+   margin-bottom: 10px;
+
+}
+
+.contact-description a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.education-description{
+  margin-top: 32px;
+}
+
+.education-description p{
+    color: #87ceeb;
+}
+
+.language-description .progress{
+    height: 6px;
+    background-color: #fff;
+    margin-top: 5px;
+    width: 205px;
+  }
+  
+  .language-description .progress div{
+    height: 6px;
+    background-color: #87ceeb;
+  }
+ 
+
+  .language-description .progress.english div{
+    width: 40%;
+  }
+  
+  .language-description .progress.espanhol div{
+    width: 45%;
+  }
+
+  .experience-column{
+    background-color: #fff;
+    color: #000;
+    padding: 40px;
+  }
+ 
+  .experience-column h2{
+margin-bottom: 15px;
+  }
+
+  .experience-column section{
+    margin-bottom: 30px;
+  }
+
+  .experience-column a{
+    text-decoration: none;
+    color: #000;
+    text-decoration-line: underline;
+  }
+
+  .experience-column .last-date{
+    text-align: right;
+  }
+
+  @media (min-width: 992px) {
+.container{
+  display: flex;
+}
+  .infomrmation-column img{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+  
