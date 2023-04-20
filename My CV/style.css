@@ -83,6 +83,9 @@
   .language-description .progress.espanhol div{
     width: 45%;
   }
+  .language-description .progress.libras div{
+    width: 30%;
+  }
 
   .experience-column{
     background-color: #fff;
